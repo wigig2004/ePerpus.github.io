@@ -51,12 +51,13 @@
   .responsive-img {
     object-fit: cover;
     width: 100%;
-    height: 50%;
+    height: 65%;
   }
 
   @media (min-width: 992px) { /* Breakpoint untuk desktop */
     .responsive-img {
-      height: 80%;
+      height: 70%;
+      width: 90%;
     }
   }
 </style>
@@ -96,7 +97,7 @@
     <section id="buku" class="recent-posts mt-4">
       <div class="container" data-aos="fade-up" style="margin-top: 40px;">
         <div class="section-header ">
-          <h4 class="mb-0"><strong>Rekomendasi Bacaan</strong></h4> <!-- mb-0 untuk menghilangkan margin bawah -->
+          <p class="mb-0"><strong>Rekomendasi Bacaan</strong></p> <!-- mb-0 untuk menghilangkan margin bawah -->
         </div>
         <!-- Konten lainnya di sini -->        
             <div class="row gy-4 justify-content-center">
@@ -104,36 +105,36 @@
                 <a href="#" class="text-decoration-none">
                    <!-- Tambahkan kelas h-100 di sini -->
                     <img src="assets/img/buku4.jpg" class="img-fluid mb-3 responsive-img" alt="buku">
-                    <h3 class="title">
+                    <p class="title">
                       <a href="#" >bacaan sejarah</a>
-                    </h3>
+                    </p>
                   </a>
                 </div>
                 <div class=" col-3">
                   <a href="#" class="text-decoration-none">
                      <!-- Tambahkan kelas h-100 di sini -->
                       <img src="assets/img/buku3.jpg" class="img-fluid mb-3 responsive-img" alt="buku">
-                      <h3 class="title">
+                      <p class="title">
                         <a href="#">bacaan biologi</a>
-                      </h3>
+                      </p>
                     </a>
                   </div>
                     <div class=" col-3">
                       <a href="#" class="text-decoration-none">
                          <!-- Tambahkan kelas h-100 di sini -->
                           <img src="assets/img/buku1.jpg" class="img-fluid mb-3 responsive-img" alt="buku">
-                          <h3 class="title">
+                          <p class="title">
                             <a href="#" >bacaan sahabat nabi</a>
-                          </h3>
+                          </p>
                         </a>
                       </div>
                       <div class=" col-3">
                         <a href="#" class="text-decoration-none">
                            <!-- Tambahkan kelas h-100 di sini -->
                             <img src="assets/img/buku2.jpg" class="img-fluid mb-3 responsive-img" alt="buku">
-                            <h3 class="title">
+                            <p class="title">
                               <a href="#" >bacaan fiksi</a>
-                            </h3>
+                            </p>
                           </a>
                         </div>
                       <!-- End post list item -->
@@ -148,29 +149,51 @@
   <!-- End Clients Section -->
   <section id="Kategori" class="clients">
     <div class="container mb-2 justify-content-center align-items-center text-center" data-aos="zoom-out">
-      <h2 class="mb-5"><strong>Kategori</strong></h2>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 mb-3 d-grid">
-          <a href="umum.html" class="btn btn-primary btn-lg rounded-5 py-3 d-flex align-items-center justify-content-center text-center ">
-            <strong>ILMU PENGETAHUAN UMUM</strong>
+      <h4 class="mb-5"><strong>Kategori</strong></h4>
+      <div class="row d-flex align-items-center justify-content-center text-center">
+        <div class="col-lg-3 col-md-6 mb-3 d-grid ">
+          <a href="umum.html" class="btn btn-light btn-lg rounded-5 py-3 text-black">
+            ILMU PENGETAHUAN UMUM
           </a>
         </div>
-        <div class="col-lg-3 col-md-6 mb-3 d-grid">
-          <a href="fiksi.html" class="btn btn-primary btn-lg rounded-5 py-3 d-flex align-items-center justify-content-center text-center ">
-            <strong>FIKSI</strong>
+        <div class="col-lg-3 col-md-6 mb-3 d-grid ">
+          <a href="fiksi.html" class=" btn btn-light btn-lg rounded-5 py-3 text-black">
+            FIKSI
           </a>
         </div>
-        <div class="col-lg-3 col-md-6 mb-3 d-grid">
-          <a href="keagamaan.html" class="btn btn-primary btn-lg rounded-5 py-3 d-flex align-items-center justify-content-center text-center ">
-            <strong>KEAGAMAAN</strong>
+        <div class="col-lg-3 col-md-6 mb-3 d-grid ">
+          <a href="keagamaan.html" class="btn btn-light btn-lg rounded-5 py-3 text-black">
+            KEAGAMAAN
           </a>
         </div>
-        <div class="col-lg-3 col-md-6 mb-3 d-grid">
-          <a href="sejarah.html" class="btn btn-primary btn-lg rounded-5 py-3 d-flex align-items-center justify-content-center text-center ">
-            <strong>SEJARAH</strong>
+        <div class="col-lg-3 col-md-6 mb-3 d-grid ">
+          <a href="sejarah.html" class="btn btn-light btn-lg rounded-5 py-3 text-black">
+            SEJARAH
           </a>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-3">
+          <h4 class="text-danger">Daftar Buku</h4>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section id="hero" class="hero">
+    <div class="container position-relative">
+        <div class="row gy-5" data-aos="fade-in">
+            <div class="d-flex justify-content-center align-items-center">
+                <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-aos="zoom-out" data-aos-delay="100">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/sekolah11.png" class="img-fluid rounded-custom mr-4" alt="Slide 1" style="object-fit: cover; width: 1400px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/sekolah2.png" class="img-fluid rounded-custom mr-4" alt="Slide 2" style="object-fit: cover; width: 1400px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
   </section>
 
